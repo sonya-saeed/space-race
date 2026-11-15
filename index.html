@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SPACE RACE</title><link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script></head>
+<body><header><b>✦ SPACE RACE</b><span id="net">OFFLINE</span></header><main>
+<section class="hero"><small>CREW PERFORMANCE PROGRAMME · 5-COG</small><h1>Train your mind.<br><em>Race the stars.</em></h1><p>Five cognitive zones. One crew leaderboard.</p></section>
+<section class="panel" id="setup"><small>MISSION SETUP</small><h2>Join your crew</h2>
+<label>DISPLAY NAME</label><input id="name" maxlength="18" placeholder="Your crew name">
+<button id="create">Create a crew room ↗</button><div class="or">OR</div><div class="join"><input id="code" placeholder="Paste invite link or room code"><button class="secondary" id="join">Join room</button></div><p id="status"></p><small>No account or password. Your XP and level save in this browser.</small></section>
+<section class="panel hidden" id="lobby"><small>CREW LOBBY</small><h2 id="roomtitle">Your crew</h2><div class="invite"><span id="url"></span><button class="secondary" id="copy">Copy link</button></div><p class="muted">CREW MEMBERS</p><div id="crew"></div><button id="start">Start mission →</button><button class="link" id="leave">Leave room</button><p id="lobbystatus"></p></section>
+<section class="panel hidden" id="game"><div class="gamehead"><div><small id="category"></small><h2 id="gametitle"></h2></div><small id="round">ROUND 1 / 5</small></div><div class="bar"><div id="progress"></div></div><div id="challenge"></div><p id="feedback" class="muted"></p></section>
+<section class="panel hidden" id="results"><small>MISSION COMPLETE</small><h2>End-of-match leaderboard</h2><p id="resultsub" class="muted"></p><div id="board"></div><div id="stats"></div><button id="again">Race again ↗</button><button class="secondary" id="back">Back to lobby</button></section>
+<section class="profile"><div><small>PILOT LEVEL</small><strong id="level">1</strong><small id="rank">CADET</small></div><div class="xp"><small>EXPERIENCE <span id="xp">0 XP</span></small><div class="bar"><div id="xpbar"></div></div></div><div><small>MATCHES</small><strong id="matches">0</strong></div></section>
+<section class="zones"><small>THE FIVE COGNITIVE ZONES</small><div class="zonegrid"><span>◎ <b>Attention</b><small>Focus & filtering</small></span><span>▦ <b>Memory</b><small>Recall & retention</small></span><span>⌗ <b>Visuospatial</b><small>Patterns & position</small></span><span>文 <b>Language</b><small>Word processing</small></span><span>∑ <b>Reasoning</b><small>Logic & problem-solving</small></span></div></section>
+<footer>DEMONSTRATION PROTOTYPE · NOT A MEDICAL OR DIAGNOSTIC TOOL</footer></main><script src="app.js"></script></body></html>
