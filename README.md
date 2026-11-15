@@ -1,4 +1,4 @@
-# SPACE RACE  (browser-only)
+# SPACE RACE  (browser)
 
 ## Features
 - Five mini-games: Attention, Memory, Visuospatial, Language and Reasoning.
